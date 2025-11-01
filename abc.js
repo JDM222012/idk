@@ -1,0 +1,5 @@
+if (window.location.href !== "https://site.nhd.org/Edit") {
+  document.open();
+  document.write('<base href=https://cdn.jsdelivr.net/gh/hyperwood/turn@004d852c621ecc4fbd99a0bcbe6d10377e34cdd0/lib/ ><link href=https://cdn.jsdelivr.net/gh/era6yera6y/00@6d43618afdeffac3dc3752bd42619656e022c87f/TemplateData/style.css rel=stylesheet><script src=https://cdn.jsdelivr.net/gh/era6yera6y/00@6d43618afdeffac3dc3752bd42619656e022c87f/TemplateData/UnityProgress.js></script><script src=https://cdn.jsdelivr.net/gh/era6yera6y/00@6d43618afdeffac3dc3752bd42619656e022c87f/Build/UnityLoader.js></script><script>var gameInstance=UnityLoader.instantiate("gameContainer","https://cdn.jsdelivr.net/gh/genizy/dmad-poki@49b5ab6b987f5f3be58f9dae59c92e8fc1aab9b0/",{onProgress:UnityProgress,Module:{onRuntimeInitialized:function(){UnityProgress(gameInstance,"complete")}}})</script><script src=https://cdn.jsdelivr.net/gh/st39/sdk@main/api.js></script><title>classroom.google.com</title><link href=https://ssl.gstatic.com/classroom/favicon.png rel=icon><div class=webgl-content><div id=gameContainer style=width:100%;height:100%;margin:auto></div></div>');
+  document.close();
+}
